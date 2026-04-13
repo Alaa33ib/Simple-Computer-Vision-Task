@@ -5,6 +5,13 @@ A specialized deep learning application designed to classify and detect three ty
 
 ---
 
+🔗 Live Demo
+Experience the Drink Detector in your browser here:
+
+👉 [Launch App on Streamlit Cloud](https://drink-detector.streamlit.app/)
+
+---
+
 ## 🎯 Learning Objectives
 * **Pipeline Management:** Navigated the full object detection lifecycle (Collection → Annotation → Training → Deployment).
 * **Roboflow Integration:** Managed dataset versioning and light augmentation.
