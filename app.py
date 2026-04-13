@@ -274,7 +274,7 @@ with st.sidebar:
 def load_model():
     try:
         from ultralytics import YOLO
-        model_path = os.path.join(os.path.dirname(__file__), "best.pt")
+        model_path ="best.pt"
         return YOLO(model_path), None
     except ImportError:
         return None, "ultralytics not installed — pip install ultralytics"
