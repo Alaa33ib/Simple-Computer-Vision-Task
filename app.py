@@ -287,8 +287,12 @@ if model_error:
 
 # ─── Input ────────────────────────────────────────────────────────────────────
 st.markdown("---")
-mode = st.radio("", ["📷 Camera", "🖼️ Upload image"], horizontal=True)
-
+mode = st.radio(
+    "Select Input Method", 
+    ["📷 Camera", "🖼️ Upload image"], 
+    horizontal=True, 
+    label_visibility="collapsed"
+)
 image = None
 if mode == "📷 Camera":
     cam = st.camera_input("Take a photo of your drink")
